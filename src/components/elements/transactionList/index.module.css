@@ -1,0 +1,46 @@
+.transaction__list{
+    width: 100%;
+    display: flex;
+    gap: 12;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    overflow: auto;
+}
+
+.transaction__card{
+    width: 100%;
+    padding: 24px;
+    background-color: var(--color-white);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction__card h3{
+    padding-bottom: 24px;
+    color: var(--color-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction__product{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.transaction__paid_amount{
+    display: flex;
+    width: 30%;
+    padding-top: 24px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.transaction__total_price{
+    display: flex;
+    font-size: 18px;
+    width: 30%;
+    justify-content: space-between;
+    font-weight: 600;
+}
