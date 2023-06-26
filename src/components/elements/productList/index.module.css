@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     margin-top: 24px;
     overflow: auto;
+    justify-content: center;
   }
   
   .product-list__product-card {

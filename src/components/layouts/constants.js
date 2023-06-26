@@ -7,12 +7,4 @@ export const MENU_LIST = [
         name: 'Transaction',
         path: '/transaction'
     },
-    {
-        name: 'History',
-        path: '/history'
-    },
-    {
-        name: 'Setting',
-        path: '/setting'
-    },
 ]

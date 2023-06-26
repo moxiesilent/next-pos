@@ -52,14 +52,21 @@ const Cart = () => {
                     )
                 })}
             </div>
-            <form onSubmit={() => handleCheckout()}>
-                <div className={styles.carts__input_paid}>
-                    Paid Amount <input type="text" />
+            <div className={styles.carts__checkout}>
+                <div className={styles['carts__total-price']}>
+                    <p>Total Harga</p>
+                    <p>Total Harga</p>
                 </div>
-                <div className={styles.carts__checkout}>
-                    <button type="submit">Checkout</button>
-                </div>
-            </form>
+                {/* <form onSubmit={() => handleCheckout()}> */}
+                    <div className={styles.carts__input_paid}>
+                        <label>Paid Amount</label> 
+                        <input type="text" placeholder="-" />
+                    </div>
+                    <div>
+                        <button type="submit">Checkout</button>
+                    </div>
+                {/* </form> */}
+            </div>
         </div>
     );
 }
